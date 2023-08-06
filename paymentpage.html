@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="payment.css">
+    <title>Payment Page</title>
+</head>
+<body>
+    <div class="container">
+        <div class="payment-form">
+            <h2>Complete Payment</h2>
+            <p>Enter Your Credit or Debit Card details below</p>
+            <form>
+                <input type="text" name="card-number" placeholder="Card number                                            MM/YY CVC"  required>
+                <button> <a href="completed.html">n</a>Confirm Payment</button>
+            </form>
+        </div>
+        <div class="order-summary">
+            <h2>Order Summary</h2> 
+            <p>Plan Name:                 Basic</p><hr />
+            <p>Billing Cycle:             Monthly</p><hr />
+            <p>Total:                     ₹ 200/mo</p>
+        </div>
+    </div>
+</body>
+</html>
+<style>
+body {
+    font-family:arial,helvetica,sans-serif;
+    background-color: #084787; /* Navy blue background */
+    color: black; 
+    margin: 0;
+    padding: 0;
+    position:relative;
+    top:25vh;
+}
+
+
+.order-summary{
+    padding: 20px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    width: 60%;
+    margin: auto;
+    background-color: white; /* Gray background */
+    border-radius: 10px;
+    
+}
+
+.payment-form{
+    padding: 20px;
+    width: 50%;
+
+}
+
+.order-summary{
+    width:50%;
+    background-color: rgb(227, 227, 227);
+
+
+}
+
+input {
+    width: 75%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px grey solid;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #0e1485;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+</style>
