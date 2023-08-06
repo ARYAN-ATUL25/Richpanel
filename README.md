@@ -10,4 +10,4 @@ So, Let’s build a subscription based billing module for a software product usi
 <img width="394" alt="image" src="https://github.com/ARYAN-ATUL25/Richpanel/assets/94162676/91ec11da-0a24-4441-9874-36e7b09ee58a">
 
 Please find the link to the website here:
-richpanel-aryanatul.netlify.app
+https://richpanel-aryanatul.netlify.app/
